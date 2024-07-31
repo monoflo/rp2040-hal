@@ -1,6 +1,6 @@
 #pragma once
 
-#include "interface_gpio.hpp"
+#include "i_gpio.hpp"
 
 class IGpioOutput : public IGpio
 {

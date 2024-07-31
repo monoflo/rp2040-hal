@@ -1,4 +1,4 @@
-#include "include/gpio_input.hpp"
+#include "gpio_input.hpp"
 
 #include "hardware/gpio.h"
 
