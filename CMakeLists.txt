@@ -8,5 +8,6 @@ pico_sdk_init()
 add_library(${CMAKE_PROJECT_NAME} STATIC)
 
 add_subdirectory(gpio)
+add_subdirectory(motor)
 
 target_link_libraries(${CMAKE_PROJECT_NAME} pico_stdlib)
